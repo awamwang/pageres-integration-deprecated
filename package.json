@@ -1,6 +1,6 @@
 {
   "name": "pageres-integration",
-  "version": "4.2.1",
+  "version": "4.2.2",
   "description": "pageres and pageres-cli integration",
   "main": "./dist/index.js",
   "scripts": {
@@ -11,9 +11,6 @@
   "bin": {
     "pageresi": "./bin/pageres-cli.js"
   },
-  "files": [
-    "dist"
-  ],
   "engines": {
     "node": ">=4"
   },
@@ -94,8 +91,5 @@
     "rules": {
       "generator-star-spacing": "off"
     }
-  },
-  "directories": {
-    "test": "test"
   }
 }

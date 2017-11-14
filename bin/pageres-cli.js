@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-'use strict';
 var path = require('path');
 var multiline = require('multiline');
 var updateNotifier = require('update-notifier');
