@@ -27,7 +27,7 @@ Filename type: only-onlyHash; full-normal&hash; normal-without hash
 ViewportSize width
 
 ```
-$ pageres todomvc.com 1024x5000 --crop --width 375 --height 667
+$ pageresi todomvc.com 1024x5000 --crop --width 375 --height 667
 ```
 
 ##### `-h`, `--height`
@@ -35,7 +35,7 @@ $ pageres todomvc.com 1024x5000 --crop --width 375 --height 667
 ViewportSize height
 
 ```
-$ pageres todomvc.com 1024x5000 --crop --width 375 --height 667
+$ pageresi todomvc.com 1024x5000 --crop --width 375 --height 667
 ```
 
 ##### `-p`, `--dest`      
@@ -43,8 +43,8 @@ $ pageres todomvc.com 1024x5000 --crop --width 375 --height 667
 Dest save Path
 
 ```
-$ pageres todomvc.com 1024x5000 --crop --width 375 --height 667 -p "./dest"
-$ pageres todomvc.com 1024x5000 --crop --width 375 --height 667 -p "/var/test/dest"
+$ pageresi todomvc.com 1024x5000 --crop --width 375 --height 667 -p "./dest"
+$ pageresi todomvc.com 1024x5000 --crop --width 375 --height 667 -p "/var/test/dest"
 ```
 
 ##### `-type`, `--nameType`      
@@ -52,6 +52,6 @@ $ pageres todomvc.com 1024x5000 --crop --width 375 --height 667 -p "/var/test/de
 Filename type: only-onlyHash; full-normal&hash; normal-without hash
 
 ```
-$ pageres -d test --type only --filename "<%= date %><%= time %><%= url %>-<%= size %>" http://www.example.com/#/member/orders/48?ss=1 1024x768 1366x768 
+$ pageresi -d test --type only --filename "<%= date %><%= time %><%= url %>-<%= size %>" http://www.example.com/#/member/orders/48?ss=1 1024x768 1366x768 
 ```
 
