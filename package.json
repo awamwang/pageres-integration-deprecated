@@ -1,6 +1,6 @@
 {
   "name": "pageres-integration",
-  "version": "4.2.3",
+  "version": "4.2.4",
   "description": "pageres and pageres-cli integration",
   "main": "./dist/index.js",
   "scripts": {
